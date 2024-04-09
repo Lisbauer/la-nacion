@@ -1,0 +1,35 @@
+.leftFocusedArticleContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sideArticleLeft{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.sideArticleLeft h2{
+    text-align: left;
+    font-size: 1.5em;
+    font-family: 'SuecaSlab', sans-serif;
+}
+.rightFocusedArticleContent{
+    display: flex;
+    flex-direction: column;    
+    width: 35%;
+}
+.imageRight{
+    width: 90%;
+}
+.sideArticleRight h4{
+    font-family: 'SuecaSlab', sans-serif;
+}
+
+@media (max-width: 1100px) {
+    .messiText{
+        font-size: 0.8em;
+    }
+}
